@@ -1,0 +1,15 @@
+{
+  "name": "pick-it-easy",
+  "private": true,
+  "type": "module",
+  "description": "Pick It Easy — a 3D robotic-arm pick-and-place simulator (three.js) and a lesson in training a small model to correct the pick when the camera is wrong. No build step.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "bench": "node bench/run.mjs",
+    "trace": "node bench/trace.mjs",
+    "play": "node train/play.mjs",
+    "train:clone": "node train/clone.mjs",
+    "train:evolve": "node train/evolve.mjs",
+    "train:reinforce": "node train/reinforce.mjs"
+  }
+}
